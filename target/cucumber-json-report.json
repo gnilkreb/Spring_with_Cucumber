@@ -1,0 +1,56 @@
+[
+  {
+    "id": "example-of-a-feature-file",
+    "description": " As some aspiring cuke4duke user\n I want an example of how it works\n So that I can easily setup my project to use it",
+    "name": "Example of a feature file",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "example-of-a-feature-file;a-simple-passing-scenario",
+        "description": "",
+        "name": "A simple passing scenario",
+        "keyword": "Scenario",
+        "line": 7,
+        "steps": [
+          {
+            "name": "the letter \u0027A\u0027",
+            "keyword": "Given ",
+            "line": 8
+          },
+          {
+            "name": "I check the letter",
+            "keyword": "When ",
+            "line": 9
+          },
+          {
+            "result": {
+              "duration": 11524958,
+              "status": "passed"
+            },
+            "name": "the letter should be \u0027A\u0027",
+            "keyword": "Then ",
+            "line": 10,
+            "match": {
+              "arguments": [
+                {
+                  "val": "A",
+                  "offset": 22
+                }
+              ],
+              "location": "CukeSteps.checkTheLetter(char)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "comments": [
+          {
+            "value": "# This should pass",
+            "line": 6
+          }
+        ]
+      }
+    ],
+    "uri": "cukes/Person.feature"
+  }
+]
