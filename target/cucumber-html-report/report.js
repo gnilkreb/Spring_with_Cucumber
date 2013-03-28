@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("\u0027cukes/Person.feature\u0027");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("cukes/Person.feature");
 formatter.feature({
   "id": "example-of-a-feature-file",
   "description": " As some aspiring cuke4duke user\n I want an example of how it works\n So that I can easily setup my project to use it",
@@ -45,14 +45,14 @@ formatter.match({
   "location": "CukeSteps.gimmeALetter(char)"
 });
 formatter.result({
-  "duration": 323102872,
+  "duration": 201459065,
   "status": "passed"
 });
 formatter.match({
   "location": "CukeSteps.checkThem()"
 });
 formatter.result({
-  "duration": 30296,
+  "duration": 560407,
   "status": "passed"
 });
 formatter.match({
@@ -65,7 +65,83 @@ formatter.match({
   "location": "CukeSteps.checkTheLetter(char)"
 });
 formatter.result({
-  "duration": 11524958,
+  "duration": 5902423,
+  "status": "passed"
+});
+formatter.scenario({
+  "id": "example-of-a-feature-file;a-database-related-scenario",
+  "description": "",
+  "name": "A database related scenario",
+  "keyword": "Scenario",
+  "line": 12,
+  "type": "scenario"
+});
+formatter.step({
+  "name": "list of persons",
+  "keyword": "Given ",
+  "line": 13
+});
+formatter.step({
+  "name": "it should be empty",
+  "keyword": "Then ",
+  "line": 14
+});
+formatter.match({
+  "location": "CukeSteps.getListOfPersons()"
+});
+formatter.result({
+  "duration": 6041617,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CukeSteps.checkIfEmpty()"
+});
+formatter.result({
+  "duration": 549651,
+  "status": "passed"
+});
+formatter.scenario({
+  "id": "example-of-a-feature-file;a-database-related-scenario",
+  "description": "",
+  "name": "A database related scenario",
+  "keyword": "Scenario",
+  "line": 16,
+  "type": "scenario"
+});
+formatter.step({
+  "name": "added some person",
+  "keyword": "Given ",
+  "line": 17
+});
+formatter.step({
+  "name": "list of persons",
+  "keyword": "And ",
+  "line": 18
+});
+formatter.step({
+  "name": "it should not be empty",
+  "keyword": "Then ",
+  "line": 19
+});
+formatter.match({
+  "location": "CukeSteps.addAPerson()"
+});
+formatter.result({
+  "duration": 12960169,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CukeSteps.getListOfPersons()"
+});
+formatter.result({
+  "duration": 4522154,
+  "status": "passed"
+});
+formatter.match({
+  "location": "CukeSteps.checkIfNotEmpty()"
+});
+formatter.result({
+  "duration": 661816,
   "status": "passed"
 });
 });

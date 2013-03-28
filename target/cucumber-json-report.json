@@ -14,18 +14,38 @@
         "line": 7,
         "steps": [
           {
+            "result": {
+              "duration": 201459065,
+              "status": "passed"
+            },
             "name": "the letter \u0027A\u0027",
             "keyword": "Given ",
-            "line": 8
-          },
-          {
-            "name": "I check the letter",
-            "keyword": "When ",
-            "line": 9
+            "line": 8,
+            "match": {
+              "arguments": [
+                {
+                  "val": "A",
+                  "offset": 12
+                }
+              ],
+              "location": "CukeSteps.gimmeALetter(char)"
+            }
           },
           {
             "result": {
-              "duration": 11524958,
+              "duration": 560407,
+              "status": "passed"
+            },
+            "name": "I check the letter",
+            "keyword": "When ",
+            "line": 9,
+            "match": {
+              "location": "CukeSteps.checkThem()"
+            }
+          },
+          {
+            "result": {
+              "duration": 5902423,
               "status": "passed"
             },
             "name": "the letter should be \u0027A\u0027",
@@ -49,6 +69,86 @@
             "line": 6
           }
         ]
+      },
+      {
+        "id": "example-of-a-feature-file;a-database-related-scenario",
+        "description": "",
+        "name": "A database related scenario",
+        "keyword": "Scenario",
+        "line": 12,
+        "steps": [
+          {
+            "result": {
+              "duration": 6041617,
+              "status": "passed"
+            },
+            "name": "list of persons",
+            "keyword": "Given ",
+            "line": 13,
+            "match": {
+              "location": "CukeSteps.getListOfPersons()"
+            }
+          },
+          {
+            "result": {
+              "duration": 549651,
+              "status": "passed"
+            },
+            "name": "it should be empty",
+            "keyword": "Then ",
+            "line": 14,
+            "match": {
+              "location": "CukeSteps.checkIfEmpty()"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "example-of-a-feature-file;a-database-related-scenario",
+        "description": "",
+        "name": "A database related scenario",
+        "keyword": "Scenario",
+        "line": 16,
+        "steps": [
+          {
+            "result": {
+              "duration": 12960169,
+              "status": "passed"
+            },
+            "name": "added some person",
+            "keyword": "Given ",
+            "line": 17,
+            "match": {
+              "location": "CukeSteps.addAPerson()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4522154,
+              "status": "passed"
+            },
+            "name": "list of persons",
+            "keyword": "And ",
+            "line": 18,
+            "match": {
+              "location": "CukeSteps.getListOfPersons()"
+            }
+          },
+          {
+            "result": {
+              "duration": 661816,
+              "status": "passed"
+            },
+            "name": "it should not be empty",
+            "keyword": "Then ",
+            "line": 19,
+            "match": {
+              "location": "CukeSteps.checkIfNotEmpty()"
+            }
+          }
+        ],
+        "type": "scenario"
       }
     ],
     "uri": "cukes/Person.feature"

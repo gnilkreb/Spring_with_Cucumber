@@ -8,3 +8,12 @@ Feature: Example of a feature file
 	    Given the letter 'A'
 	    When I check the letter
 	    Then the letter should be 'A'
+
+  Scenario: A database related scenario
+    Given list of persons
+    Then it should be empty
+
+  Scenario: A database related scenario
+    Given added some person
+    And list of persons
+    Then it should not be empty
