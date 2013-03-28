@@ -15,7 +15,7 @@
         "steps": [
           {
             "result": {
-              "duration": 201459065,
+              "duration": 257327343,
               "status": "passed"
             },
             "name": "the letter \u0027A\u0027",
@@ -33,7 +33,7 @@
           },
           {
             "result": {
-              "duration": 560407,
+              "duration": 487004,
               "status": "passed"
             },
             "name": "I check the letter",
@@ -45,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 5902423,
+              "duration": 5685777,
               "status": "passed"
             },
             "name": "the letter should be \u0027A\u0027",
@@ -79,7 +79,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6041617,
+              "duration": 3675187,
               "status": "passed"
             },
             "name": "list of persons",
@@ -91,7 +91,7 @@
           },
           {
             "result": {
-              "duration": 549651,
+              "duration": 824686,
               "status": "passed"
             },
             "name": "it should be empty",
@@ -113,7 +113,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12960169,
+              "duration": 14923616,
               "status": "passed"
             },
             "name": "added some person",
@@ -125,7 +125,7 @@
           },
           {
             "result": {
-              "duration": 4522154,
+              "duration": 3877587,
               "status": "passed"
             },
             "name": "list of persons",
@@ -137,7 +137,7 @@
           },
           {
             "result": {
-              "duration": 661816,
+              "duration": 506349,
               "status": "passed"
             },
             "name": "it should not be empty",

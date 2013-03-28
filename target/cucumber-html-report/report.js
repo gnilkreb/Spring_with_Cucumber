@@ -45,14 +45,14 @@ formatter.match({
   "location": "CukeSteps.gimmeALetter(char)"
 });
 formatter.result({
-  "duration": 201459065,
+  "duration": 257327343,
   "status": "passed"
 });
 formatter.match({
   "location": "CukeSteps.checkThem()"
 });
 formatter.result({
-  "duration": 560407,
+  "duration": 487004,
   "status": "passed"
 });
 formatter.match({
@@ -65,7 +65,7 @@ formatter.match({
   "location": "CukeSteps.checkTheLetter(char)"
 });
 formatter.result({
-  "duration": 5902423,
+  "duration": 5685777,
   "status": "passed"
 });
 formatter.scenario({
@@ -90,14 +90,14 @@ formatter.match({
   "location": "CukeSteps.getListOfPersons()"
 });
 formatter.result({
-  "duration": 6041617,
+  "duration": 3675187,
   "status": "passed"
 });
 formatter.match({
   "location": "CukeSteps.checkIfEmpty()"
 });
 formatter.result({
-  "duration": 549651,
+  "duration": 824686,
   "status": "passed"
 });
 formatter.scenario({
@@ -127,21 +127,21 @@ formatter.match({
   "location": "CukeSteps.addAPerson()"
 });
 formatter.result({
-  "duration": 12960169,
+  "duration": 14923616,
   "status": "passed"
 });
 formatter.match({
   "location": "CukeSteps.getListOfPersons()"
 });
 formatter.result({
-  "duration": 4522154,
+  "duration": 3877587,
   "status": "passed"
 });
 formatter.match({
   "location": "CukeSteps.checkIfNotEmpty()"
 });
 formatter.result({
-  "duration": 661816,
+  "duration": 506349,
   "status": "passed"
 });
 });

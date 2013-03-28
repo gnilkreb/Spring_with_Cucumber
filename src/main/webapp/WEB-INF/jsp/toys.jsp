@@ -24,11 +24,11 @@
     <form:label path="toyName">Toy name</form:label>
     <form:input path="toyName" />
     <input name="personId" type="hidden" value="${person.id}"/>
-    <input type="submit" value="Add Person" class="btn"/>
+    <input type="submit" value="Add Toy" class="btn"/>
 </form:form>
 
 <c:if  test="${!empty toyList}">
-    <h3>People</h3>
+    <h3>Toys</h3>
     <table class="table table-bordered table-striped">
         <thead>
         <tr>
