@@ -1,0 +1,1 @@
+insert into Person (id, firstName, lastName) values (0, 'f_name', 'l_name');

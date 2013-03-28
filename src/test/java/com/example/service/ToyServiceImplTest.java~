@@ -1,0 +1,87 @@
+/**
+ * 
+ */
+package com.example.service;
+
+import junit.framework.TestCase;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+/**
+ * @author kay
+ *
+ */
+public class ToyServiceImplTest extends TestCase{
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	/**
+	 * Test method for {@link com.example.service.ToyServiceImpl#addToy(com.example.model.Toy)}.
+	 */
+	@Test
+	public final void testAddToy() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	/**
+	 * Test method for {@link com.example.service.ToyServiceImpl#removeToy(java.lang.Integer)}.
+	 */
+	@Test
+	public final void testRemoveToy() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	/**
+	 * Test method for {@link com.example.service.ToyServiceImpl#listToys()}.
+	 */
+	@Test
+	public final void testListToys() {
+		fail("Not yet implemented"); // TODO
+	}
+
+	private SimpleProductManager productManager;
+    
+    protected void setUp() throws Exception {
+        productManager = new SimpleProductManager();
+    }
+
+    public void testGetProductsWithNoProducts() {
+        productManager = new SimpleProductManager();
+        assertNull(productManager.getProducts());
+    }
+
+}
+	
+}

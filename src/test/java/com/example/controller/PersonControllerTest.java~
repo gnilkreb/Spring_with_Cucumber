@@ -1,0 +1,86 @@
+/**
+ * 
+ */
+package com.example.controller;
+
+import static org.junit.Assert.*;
+//import org.testng.annotations.*;
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+/**
+ * @author kay
+ *
+ */
+public class PersonControllerTest {
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@Before
+	public void setUp() throws Exception {
+	}
+
+	/**
+	 * @throws java.lang.Exception
+	 */
+	@After
+	public void tearDown() throws Exception {
+	}
+
+	/**
+	 * Test method for {@link com.example.controller.PersonController#listPeople(java.util.Map)}.
+	 */
+	@Test
+	public final void testListPeople() {
+			fail("Not yet implemented"); // TODO
+
+	
+			boolean failed;
+			try {
+			    //test case setup
+			    yourClass.callYourMethod(4,2);
+			    failed = true;
+			} catch (AssertionError e) {
+			    failed = false;
+			}
+			if (failed) {
+			    fail();
+			}
+	
+	}
+
+	/**
+	 * Test method for {@link com.example.controller.PersonController#addPerson(com.example.model.Person, org.springframework.validation.BindingResult)}.
+	 */
+	@Test
+	public final void testAddPerson() {
+//		fail("Not yet implemented"); // TODO
+	}
+
+	/**
+	 * Test method for {@link com.example.controller.PersonController#deletePerson(java.lang.Integer)}.
+	 */
+	@Test
+	public final void testDeletePerson() {
+//		fail("Not yet implemented"); // TODO
+	}
+
+}
